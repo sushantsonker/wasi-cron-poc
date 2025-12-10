@@ -1,0 +1,6 @@
+jobs:
+  - name: "hello-job"
+    wasm_path: "./jobs/hello-job/hello-job.wasm"
+    schedule: "@every 10s"   # run every 10 seconds (for demo)
+    env:
+      JOB_NAME: "hello-job"
